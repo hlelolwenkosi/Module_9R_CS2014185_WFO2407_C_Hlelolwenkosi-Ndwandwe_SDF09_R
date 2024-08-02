@@ -1,16 +1,32 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!-- Link to the external CSS file for styling -->
         <link rel="stylesheet" href="CSS/Style.css">
     </head>
     <body>
+        <!-- Game title -->
         <h1>Blackjack</h1>
+        
+        <!-- Message for game status or prompts -->
         <p id="message-el">Want to play a round?</p>
+        
+        <!-- Display cards drawn -->
         <p id="cards-el">Cards:</p>
+        
+        <!-- Display the sum of the card values -->
         <p id="sum-el">Sum:</p>
+        
+        <!-- Button to start a new game -->
         <button onclick="startGame()">START GAME</button>
+        
+        <!-- Button to draw a new card -->
         <button onclick="newCard()">NEW CARD</button>
+        
+        <!-- Display player information -->
         <p id="player-el"></p>
+        
+        <!-- Link to the external JavaScript file for functionality -->
         <script src="index.js"></script>
     </body>
 </html>

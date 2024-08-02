@@ -1,29 +1,38 @@
+/* Style for the body element */
 body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
-    background-image: url("../images/Table.jpg");
-    background-size: cover;
-    font-weight: bold;
-    color: white;
-    text-align: center;
+    font-family: 'Rubik', sans-serif; /* Changed font to 'Rubik' */
+    background-image: url("../images/Table.jpg"); /* Background image */
+    background-size: cover; /* Cover entire background */
+    font-weight: 400; /* Changed font weight to normal */
+    color: #FFFFFF; /* Text color white */
+    text-align: center; /* Center-align text */
 }
 
+/* Style for h1 headings */
 h1 {
-    color: goldenrod;
+    color:#1E90FF; /* Changed color to gold */
 }
 
+/* Style for the message element */
 #message-el {
-    font-style: italic;
+    font-style: italic; /* Italic text */
 }
 
+/* Style for buttons */
 button {
-    color: #016f32;
-    width: 150px;
-    background: goldenrod;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    font-weight: bold;
-    border: none;
-    border-radius: 2px;
-    margin-bottom: 2px;
-    margin-top: 2px;
+    color: #FFFFFF; /* Changed text color to white */
+    width: 150px; /* Fixed width */
+    background: #1E90FF; /* Changed background color to DodgerBlue */
+    padding-top: 10px; /* Increased top padding */
+    padding-bottom: 10px; /* Increased bottom padding */
+    font-weight: 600; /* Semi-bold text */
+    border: none; /* No border */
+    border-radius: 5px; /* More rounded corners */
+    margin-bottom: 5px; /* Increased bottom margin */
+    margin-top: 5px; /* Increased top margin */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+button:hover {
+    background: #4682B4; /* Change background color on hover to SteelBlue */
 }
